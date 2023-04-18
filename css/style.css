@@ -3,19 +3,24 @@ body {background-image: url("../img/fondo.png");}
 ul{list-style-type: none;}
 a{text-decoration: none;}
 .img-fluid{width:100%;height: auto;}
+.al20 {width: 20%;}
 .al50 {width: 50%;}
 .p20{padding:20px;}
 .m20{margin:20px;}
 .mb20{margin-bottom:20px;}
 .txt-center{text-align:center;}
 .gridMainPersonajes div{display: flex;flex-direction: column;align-items: center;}
-.pie {font-family: 'Press Start 2P', cursive;font-size: 15px; text-align: center; padding-left: 20px;}
+.pie {position:static; display: flex; align-items: center; font-family: 'Press Start 2P', cursive;font-size: 15px; text-align: center; padding-left: 20px;}
 h1 {font-family: 'Press Start 2P', cursive;font-size: 20px; color: cyan;}
 .tipografia2, h4, .infoGameplay {font-family: 'Lacquer', cursive; font-size: 20px;}
 .tipografia1{font-family: 'Press Start 2P', cursive;font-size: 18px; text-align: center;}
 .desarrollo{font-family: 'Press Start 2P', cursive; font-size: 20px; padding:20px; margin:20px; text-align: center;}
 .imgcenter, .video {display:flex; justify-content: center; align-items:center; position: relative;}
 .tienda {display:inline-block; background-color:black;color: magenta; font-family: 'Press Start 2P', cursive; font-size: 20px; padding:5px; margin:5px; text-align: center;}
+.fondotx {background-image: url("../img/fondotx.jpg")}
+.fondotx2 {background-image: url("../img/background.sky.jpg")}
+.backcolor {background-color: rgb(145, 44, 246);}
+.backcolor2 {background-color: rgb(44, 246, 101);}
 
 /*Navegador*/
 .navegador ul{list-style-type: none;text-align: center;}
@@ -73,7 +78,7 @@ h1 {font-family: 'Press Start 2P', cursive;font-size: 20px; color: cyan;}
 
 /* Mobile */
 @media (max-width:768px){
-    header,main,footer, .navegador, nav, ul, .video {display:flex;flex-direction: column;align-items: center;}
+    header,main,footer, .navegador, nav, ul, .video,p, .pie {display:flex;flex-direction: column;align-items: center;}
     ul{display:flex;padding:0;}
     a{display:flex;padding:2;font-size:15px;padding:2px;margin:2px;}
     p{font-size:22px;}
